@@ -1,0 +1,100 @@
+log->mintAmount 1000000000000000000 1000000000000000000n
+log->mintAmount1 30000000000000000 30000000000000000n
+log->mintAmount2 970000000000000000 970000000000000000n
+Create Token : https://explorer.solana.com/tx/C7Ch1HpYxFeqLjYGuMgGfcrUghUGj5UpT1catoVi19Kz6uMQem7EMB193GEnDQmF2BYMrTRnVPJTVLZAjCiJXbA?cluster=devnet
+Token address: CRuqitr1xxTdNnz6Dc4gBrXuPAt4vbv8prM8fWSNWyTF
+image uri: https://arweave.net/TfmVkUsKwET2KapN1lD9ExxTVFaQI2N61Kk3Oe2P73w
+metadata uri: https://arweave.net/-3PPufoKnUaTyptIO1PTF0LdBdQ9_e4QL7QfU1MvyTc
+GET METADATA ACCOUNT ADDRESS is : 8gBtUk5Kb8CWkWju4Df8B99P4bjeCKKEkMPnN8q9bTz3
+=============================
+CREATING TRANSACTION
+=============================
+METADATA TRANSACTİON : [object Object]
+=============================
+BEGIN SENDANDCONFIRMTRANSACTION
+Create Metadata Account: https://explorer.solana.com/tx/SfHGsPX7xsWpEb12QuewGiCxJYU2kA7AWDGLt4v4adgzY8nC4Ncp3xDeAuWSYmLZj8jPQdHyRqocisRLXnRLu62?cluster=devnet
+PublicKey: HmP1Exwvc4ThLRWWguZx7aRmjD9cz8izDvomaVyFN93A
+Finished successfully
+Done in 105.11s.
+
+
+
+https://api.mainnet-beta.solana.com/
+log->mintAmount 1000000000000000000 1000000000000000000n
+log->mintAmount1 100000000000000000 100000000000000000n
+log->mintAmount2 900000000000000000 900000000000000000n
+Create Token : https://explorer.solana.com/tx/Mh2qAJCzkESveGUcPNKji6PbJV4qM3Y44uUrKfucgcV4tFye7KBkw2XyZ7dNkp6m2MPvNb4GgWHjVn6xYHJMkRa?cluster=devnet
+Token address: 7xPSnjp8QTwLtvDYYtkKmn1udEhZSa3AsqtqGFFTLEBS
+image uri: https://arweave.net/x5lNe-SzeyMGHUamAadV5W93W6dZ4q1fzKQjDHpxsHk
+metadata uri: https://arweave.net/ScphrQbl-vFz8JpU4oN5WpXLqnhiDq4gfg5S72iVkII
+GET METADATA ACCOUNT ADDRESS is : 7gBiR4Z6JzuVqfZjUXDDcqytgPixNEKWh5fgjL8HeHsr
+=============================
+CREATING TRANSACTION
+=============================
+METADATA TRANSACTİON : [object Object]
+=============================
+BEGIN SENDANDCONFIRMTRANSACTION
+Create Metadata Account: https://explorer.solana.com/tx/37gsaN9MvBQqjGDTCwb7Xh7Wd1RjTH1aP1ouPCo4nQunMfAcv761VsagTW8gJWc9dUqEkjTDXvh8vSCaEDBX9kmd?cluster=devnet
+PublicKey: 2bECUQpoG8MijQZct6PoenQcXupA8TYDPwJn3WpahcCx
+Finished successfully
+Done in 89.20s.
+
+
+
+bigint: Failed to load bindings, pure JS will be used (try npm run rebuild?)
+https://api.mainnet-beta.solana.com/
+log->mintAmount 1000000000000000000 1000000000000000000n
+log->mintAmount1 100000000000000000 100000000000000000n
+log->mintAmount2 900000000000000000 900000000000000000n
+Create Token : https://explorer.solana.com/tx/5KUaMeKqxWrypwiAZraDA6ismJtfombAfL1uWYPeiAMKdZCJJPLuSoeS5TCxW4KWHD99xgNpetBjxUicaS2gjgvg?cluster=devnet
+Token address: 3q9VB2wXfhV97cXMgWzz8NHFanXhqmf6gRdZ8UV5dsR8
+image uri: https://arweave.net/OfxAMJPfbs_59C5wXY4jLYRfMTIga69xNIYPBLwzZtk
+metadata uri: https://arweave.net/fZgfTmaSsrhIptLnEqVdF1xnt50ZyYbOmE0Pw3_-LYw
+GET METADATA ACCOUNT ADDRESS is : 34BZPzzAfrMLckKPh3QXNLgkYPZjx9kEPALsUZRugscj
+=============================
+CREATING TRANSACTION
+=============================
+METADATA TRANSACTİON : [object Object]
+=============================
+BEGIN SENDANDCONFIRMTRANSACTION
+SendTransactionError: failed to send transaction: Transaction simulation failed: Error processing Instruction 0: Program failed to complete
+    at Connection.sendEncodedTransaction (E:\Work\Solana\Meme Mayhem\SPL-Token Creation Script\node_modules\@solana\web3.js\src\connection.ts:5921:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Connection.sendRawTransaction (E:\Work\Solana\Meme Mayhem\SPL-Token Creation Script\node_modules\@solana\web3.js\src\connection.ts:5880:20)
+    at async Connection.sendTransaction (E:\Work\Solana\Meme Mayhem\SPL-Token Creation Script\node_modules\@solana\web3.js\src\connection.ts:5868:12)
+    at async sendAndConfirmTransaction (E:\Work\Solana\Meme Mayhem\SPL-Token Creation Script\node_modules\@solana\web3.js\src\utils\send-and-confirm-transaction.ts:35:21) {
+  logs: [
+    'Program metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s invoke [1]',
+    'Program log: IX: Create Metadata Accounts v3',
+    'Program 11111111111111111111111111111111 invoke [2]',
+    'Program 11111111111111111111111111111111 success',
+    "Program log: panicked at 'range end index 36 out of range for slice of length 0', src/token/utils.rs:50:27",
+    'Program metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s consumed 11418 of 200000 compute units',
+    'Program metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s failed: SBF program panicked'
+  ]
+}
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+
+yarn run v1.22.19
+$ ts-node src/index.ts
+bigint: Failed to load bindings, pure JS will be used (try npm run rebuild?)
+https://api.mainnet-beta.solana.com/
+log->mintAmount 1000000000000000000 1000000000000000000n
+Create Token : https://explorer.solana.com/tx/4SUXbRkG7iFcEJFoszt4gqdgoMTcvrcCkTh6oSqDro5haSQvCDCn7VNCQz5trdrP3re4YLDDxJeE8JLcNcvs6Y7C?cluster=devnet
+Token address: 8z7cvqdgu2BDuVagYoQSz1GbvjT8R4bj9kiPyMM6BPNn
+image uri: https://arweave.net/cybEMWx8gfmmnKiEAyRxu4QDuDbtsPrfEqdTJNbwZuY
+metadata uri: https://arweave.net/JPDY6K_Cn-a_g23VicJe_Gv-u0tTP3AsI-Uff-3BM88
+GET METADATA ACCOUNT ADDRESS is : 3v8W1xFmr8m2tLGXbdiACRqdDTiRwnGqYHEBQ5AgKzPX
+=============================
+CREATING TRANSACTION
+=============================
+METADATA TRANSACTİON : [object Object]
+=============================
+BEGIN SENDANDCONFIRMTRANSACTION
+Create Metadata Account: https://explorer.solana.com/tx/2uNcY7Lwq7k8PMaM9nUjJiByuyCPH39QFRWNAk7nMDWC4DeDhnfzKszKuoocZQqYGM9J6eGhPvYXT6cGTym8Homm?cluster=devnet
+PublicKey: HmP1Exwvc4ThLRWWguZx7aRmjD9cz8izDvomaVyFN93A
+Finished successfully
+Done in 119.97s.
